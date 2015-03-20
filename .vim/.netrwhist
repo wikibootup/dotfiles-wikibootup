@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Users/wikibootup/my_blog/my_blog/templates/pinax/blog'
-let g:netrw_dirhist_2='/usr/local/var/lib/pyenv/versions/zinnia-blog/lib/python2.7/site-packages/zinnia/views'
-let g:netrw_dirhist_3='/Users/wikibootup/Documents/github/yebimom/centers/models'

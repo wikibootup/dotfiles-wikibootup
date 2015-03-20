@@ -1,0 +1,26 @@
+# pyenv set
+source ~/.dotfiles/.pyenv.bash
+
+# shell text color set
+source ~/.dotfiles/.prompt.bash
+
+# github set
+source ~/.dotfiles/.git.sh
+
+# go path
+source ~/.dotfiles/.go.sh
+
+# docker
+source ~/.dotfiles/.docker.sh
+
+# postgres
+source ~/.dotfiles/.postgres.sh
+
+# rbenv
+source ~/.dotfiles/.rbenv.bash
+
+# tmux
+source ~/.dotfiles/.tmux.sh
+
+# applications
+source ~/.dotfiles/.apps.sh

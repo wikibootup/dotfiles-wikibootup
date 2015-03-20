@@ -1,0 +1,13 @@
+currentvenv="${VIRTUAL_ENV}"
+currentdir="${PWD}"
+echo "currentdir = $currentdir"
+
+# regular expressions
+# *	operators: The preceding item will be matched zero or more times.
+if [[ "$currentdir" == *"/{{project_name}}"* ]]
+then
+	if [[ "$currentvenv" != "{{pyenv_path}}" ]]
+	then
+	  pyenv activate {{project_name}}
+	fi
+fi

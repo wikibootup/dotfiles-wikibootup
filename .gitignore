@@ -1,0 +1,6 @@
+# exclude vundler package list
+bundle/
+autoload/
+ftplugin/
+indent/
+syntax/

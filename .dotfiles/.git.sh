@@ -1,9 +1,9 @@
 # hub alias
 eval "$(hub alias -s)"
 
-# git autocomplete
-if [ -f ~/.dot/.git-completion.bash ]; then
-  . ~/.dot/.git-completion.bash
+# git autocomplete(also contain hub)
+if [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then
+  . /usr/local/etc/bash_completion.d/git-completion.bash
 fi
 
 # git alias

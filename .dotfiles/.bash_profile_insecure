@@ -1,11 +1,17 @@
-# pyenv set
-source ~/.dotfiles/.pyenv.bash
-
 # shell text color set
 source ~/.dotfiles/.prompt.bash
 
+# tmux
+source ~/.dotfiles/.tmux.sh
+
 # github set
 source ~/.dotfiles/.git.sh
+
+# pyenv set
+source ~/.dotfiles/.pyenv.bash
+
+# django
+source ~/.dotfiles/.django.sh
 
 # go path
 source ~/.dotfiles/.go.sh
@@ -18,9 +24,6 @@ source ~/.dotfiles/.postgres.sh
 
 # rbenv
 source ~/.dotfiles/.rbenv.bash
-
-# tmux
-source ~/.dotfiles/.tmux.sh
 
 # applications
 source ~/.dotfiles/.apps.sh

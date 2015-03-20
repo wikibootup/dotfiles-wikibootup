@@ -1,8 +1,8 @@
 # source tree
-source .source_tree.sh
+source ~/.dotfiles/.source_tree.sh
 
 # todo list
-source .todo.sh
+source ~/.dotfiles/.todo.sh
 
 # tree
-source .tree.sh
+source ~/.dotfiles/.tree.sh

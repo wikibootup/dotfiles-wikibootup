@@ -7,11 +7,8 @@ source ~/.dotfiles/.tmux.sh
 # github set
 source ~/.dotfiles/.git.sh
 
-# pyenv set
-source ~/.dotfiles/.pyenv.bash
-
-# django
-source ~/.dotfiles/.django.sh
+# python packages set
+source ~/.dotfiles/.python-pkgs.sh
 
 # go path
 source ~/.dotfiles/.go.sh

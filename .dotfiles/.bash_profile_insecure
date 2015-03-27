@@ -1,6 +1,3 @@
-# shell text color set
-source ~/.dotfiles/.prompt.bash
-
 # tmux
 source ~/.dotfiles/.tmux.sh
 
@@ -24,3 +21,6 @@ source ~/.dotfiles/.rbenv.bash
 
 # applications
 source ~/.dotfiles/.apps.sh
+
+# shell text color set (source last, because dependencies like git prompt)
+source ~/.dotfiles/.prompt.bash

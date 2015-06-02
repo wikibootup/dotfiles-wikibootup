@@ -15,6 +15,7 @@ alias gadd='git add'
 alias gm='git commit -m'
 alias gd='git diff'
 alias gs='git status'
+alias gamend='git commit --amend'
 
 # Cancel previous load stash
 alias guna='!git stash show -p | git apply -R'

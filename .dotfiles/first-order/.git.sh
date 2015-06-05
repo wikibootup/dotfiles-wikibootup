@@ -15,9 +15,10 @@ alias gadd='git add'
 alias gm='git commit -m'
 alias gd='git diff'
 alias gs='git status'
+alias gclone='git clone'
 alias gamend='git commit --amend'
 
 # Cancel previous load stash
-alias guna='!git stash show -p | git apply -R'
+alias gsc='!git stash show -p | git apply -R'
 # More recommend to use followed alias if you set 'git autocomplete'
 # git config --global alias.stash-unapply '!git stash show -p | git apply -R'

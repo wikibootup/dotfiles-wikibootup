@@ -1,0 +1,6 @@
+currentvenv="${VIRTUAL_ENV}"
+
+if [[ "$currentvenv" != "/usr/local/opt/pyenv/versions/my_venv" ]]
+then
+  pyenv activate my_venv
+fi

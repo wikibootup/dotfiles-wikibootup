@@ -19,6 +19,7 @@ alias gclone='git clone'
 alias gamend='git commit --amend'
 alias ready='git checkout develop && git pull upstream develop'
 alias branch="git branch | sed -n '/\* /s///p'"
+alias RD="git rebase develop"
 
 # Cancel previous load stash
 alias gsc='!git stash show -p | git apply -R'

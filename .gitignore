@@ -4,3 +4,8 @@ autoload/
 ftplugin/
 indent/
 syntax/
+
+# emacs
+auto-save-list/
+*.el#
+*.el~*

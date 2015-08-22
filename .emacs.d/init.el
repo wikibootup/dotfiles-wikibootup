@@ -1,9 +1,6 @@
 ;; Load path
 (add-to-list 'load-path "~/.emacs.d/lisp")
-
-
-;; Working directory
-(cd "~/inProgress/sicp/")
+(add-to-list 'load-path "~/inProgress/sicp/modules/")
 
 
 ;; To use MELPA repo

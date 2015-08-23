@@ -3,6 +3,32 @@
 (add-to-list 'load-path "~/inProgress/sicp/modules/")
 
 
+;; Start-up set
+
+
+;;;; Shortcut
+(defalias 'f 'find-file-new-window)
+(defalias 'r 'run-scheme)
+
+;; Window
+(global-set-key (kbd "M-2") 'split-window-vertically)
+(global-set-key (kbd "M-1") 'split-window-horizontally)
+(global-set-key (kbd "M-0") 'delete-window)
+
+(global-set-key (kbd "M-a") 'shrink-window-horizontally)
+(global-set-key (kbd "M-d") 'enlarge-window-horizontally)
+(global-set-key (kbd "M-w") 'shrink-window)
+(global-set-key (kbd "M-s") 'enlarge-window)
+(global-set-key (kbd "M-f") 'find-file-other-window)
+(global-set-key (kbd "M-r") 'run-scheme)
+
+
+;; http://www.emacswiki.org/emacs/WindMove
+;; replacement of C-x-o, just Shift-<arrow>
+(when (fboundp 'windmove-default-keybindings)
+  (windmove-default-keybindings))
+
+
 ;; To use MELPA repo
 ;; It is built in (bundled) emacs 24
 (require 'package)

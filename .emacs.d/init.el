@@ -7,7 +7,7 @@
 
 
 ;;;; Shortcut
-(defalias 'f 'find-file-new-window)
+(defalias 'f 'find-file)
 (defalias 'r 'run-scheme)
 
 ;; Window
@@ -19,7 +19,10 @@
 (global-set-key (kbd "M-d") 'enlarge-window-horizontally)
 (global-set-key (kbd "M-w") 'shrink-window)
 (global-set-key (kbd "M-s") 'enlarge-window)
-(global-set-key (kbd "M-f") 'find-file-other-window)
+
+(global-set-key (kbd "M-f") 'find-file)
+
+;; MIT Scheme
 (global-set-key (kbd "M-r") 'run-scheme)
 
 

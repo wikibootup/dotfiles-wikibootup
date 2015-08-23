@@ -17,7 +17,9 @@
 
 (global-set-key (kbd "M-a") 'shrink-window-horizontally)
 (global-set-key (kbd "M-d") 'enlarge-window-horizontally)
-(global-set-key (kbd "M-w") 'shrink-window)
+
+;; M-w SHOULD BE CHANGED (IT IS COPY KEY)
+;(global-set-key (kbd "M-w") 'shrink-window)
 (global-set-key (kbd "M-s") 'enlarge-window)
 
 (global-set-key (kbd "M-f") 'find-file)

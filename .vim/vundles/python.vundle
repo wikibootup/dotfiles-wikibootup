@@ -1,9 +1,0 @@
-"http://vimawesome.com/plugin/python-mode
-" :help pymode
-" :help fold
-Plugin 'klen/python-mode'
-
-
-" http://vimawesome.com/plugin/django-vim-sweeter-than-fiction
-" Django autocomplete
-Plugin 'django.vim'

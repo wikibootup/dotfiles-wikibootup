@@ -1,9 +1,6 @@
-# exclude vundler package list
-bundle/
-autoload/
-ftplugin/
-indent/
-syntax/
+# Exclude vundler package list : Only vundle allowed in bundle
+.vim/bundle/*
+!.vim/bundle/Vundle.vim/
 
 # emacs
 auto-save-list/
@@ -11,5 +8,5 @@ auto-save-list/
 *.el~*
 *#
 
-# .vim directory
+# .vim
 .netrwhist

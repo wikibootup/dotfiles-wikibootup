@@ -12,6 +12,13 @@ $ cd symbolic-linker
 $ . .symbolic-link-generate
 ```
 
+\* If you want remove all the exist dotfiles, do this. (!Note : It Removes without asking)
+```sh
+$ ln -s [YOUR LIBRARY PATH] ~
+$ cd symbolic-linker
+$ . .dotfiles-remover
+```
+
 # Install brew package list
 ```sh
 $ cd brew-list-installer

@@ -1,0 +1,11 @@
+# It loads dotfiles name
+# and read line by line(package name)
+# and remove all (dotfiles in $HOME)
+
+filename="link-table.dat"
+path=($HOME/mydot/)
+echo $path
+while read -r line
+do
+  rm -r $path$line ~
+done < "$filename"

@@ -3,7 +3,7 @@
 # and symbolic link
 
 filename="link-table.dat"
-path=($HOME/mydot/)
+path=($HOME/dotfiles/)
 echo $path
 while read -r line
 do

@@ -1,4 +1,4 @@
-# It loads link list file
+# It loads dotfiles to symbolic link
 # and read line by line(package name)
 # and symbolic link
 

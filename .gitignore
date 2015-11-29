@@ -9,6 +9,7 @@ syntax/
 auto-save-list/
 *.el#
 *.el~*
+*#
 
 # .vim directory
 .netrwhist

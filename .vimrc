@@ -33,5 +33,5 @@ set ts=3 sts=3 sw=3 et
 " Local
 autocmd Filetype rst setlocal ts=3 sts=3 sw=3 et smartindent
 autocmd Filetype haskell,javascript,python,cpp setlocal ts=4 sts=4 sw=4 et smartindent list lcs=tab:\|.,trail:~ " display tab as ~
-autocmd Filetype html markdown setlocal ts=2 sts=2 sw=2 et smartindent
+autocmd Filetype html,markdown setlocal ts=2 sts=2 sw=2 et smartindent
 autocmd Filetype asm,c setlocal ts=8 sts=8 sw=8 et smartindent

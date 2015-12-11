@@ -1,3 +1,6 @@
+# Common
+*.swp
+
 # Exclude vundler package list : Only vundle allowed in bundle
 .vim/bundle/*
 !.vim/bundle/Vundle.vim/

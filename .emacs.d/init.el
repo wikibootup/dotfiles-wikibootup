@@ -10,13 +10,13 @@
 
 
 ;;;; Shortcut
-;;(defalias 'f 'find-file)
-;;(defalias 'r 'run-scheme)
+(defalias 'f 'find-file)
+(defalias 'r 'run-scheme)
 ;;
 ;;;; Window
-;;(global-set-key (kbd "M-2") 'split-window-vertically)
+(global-set-key (kbd "M-2") 'split-window-vertically)
 ;;(global-set-key (kbd "M-1") 'split-window-horizontally)
-;;(global-set-key (kbd "M-0") 'delete-window)
+(global-set-key (kbd "M-0") 'delete-window)
 ;;
 ;;(global-set-key (kbd "M-a") 'shrink-window-horizontally)
 ;;(global-set-key (kbd "M-d") 'enlarge-window-horizontally)
@@ -25,10 +25,10 @@
 ;;;(global-set-key (kbd "M-w") 'shrink-window)
 ;;(global-set-key (kbd "M-s") 'enlarge-window)
 ;;
-;;(global-set-key (kbd "M-f") 'find-file)
+(global-set-key (kbd "M-f") 'find-file)
 ;;
 ;;;; MIT Scheme
-;;(global-set-key (kbd "M-r") 'run-scheme)
+(global-set-key (kbd "M-r") 'run-scheme)
 ;;
 ;;
 ;; http://www.emacswiki.org/emacs/WindMove

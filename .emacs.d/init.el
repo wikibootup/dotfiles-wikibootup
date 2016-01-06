@@ -6,9 +6,6 @@
 ;;(add-to-list 'load-path "~/inProgress/sicp/modules/")
 
 
-;; Start-up set
-
-
 ;;;; Shortcut
 (defalias 'f 'find-file)
 (defalias 'r 'run-scheme)
@@ -17,20 +14,20 @@
 (global-set-key (kbd "M-2") 'split-window-vertically)
 ;;(global-set-key (kbd "M-1") 'split-window-horizontally)
 (global-set-key (kbd "M-0") 'delete-window)
-;;
+
 ;;(global-set-key (kbd "M-a") 'shrink-window-horizontally)
 ;;(global-set-key (kbd "M-d") 'enlarge-window-horizontally)
-;;
+
 ;;;; M-w SHOULD BE CHANGED (IT IS COPY KEY)
 ;;;(global-set-key (kbd "M-w") 'shrink-window)
 ;;(global-set-key (kbd "M-s") 'enlarge-window)
-;;
+
 (global-set-key (kbd "M-f") 'find-file)
-;;
+
 ;;;; MIT Scheme
 (global-set-key (kbd "M-r") 'run-scheme)
-;;
-;;
+
+
 ;; http://www.emacswiki.org/emacs/WindMove
 ;; Replacement of C-x-o, just Shift-<arrow>
 (when (fboundp 'windmove-default-keybindings)
@@ -49,22 +46,22 @@
 ;; MIT Scheme
 (setq scheme-program-name "/usr/local/bin/scheme")
 (require 'xscheme)
-;;
-;;
+
+
 ;; aggressive-indent-mode ( Auto indent )
 ;;(add-hook 'emacs-lisp-mode-hook #'aggressive-indent-mode)
 ;;(add-hook 'css-mode-hook #'aggressive-indent-mode)
 ;;(global-aggressive-indent-mode 1)
 ;;(add-to-list 'aggressive-indent-excluded-modes 'html-mode)
-;;
-;;
+
+
 ;; for left side line numbers
 (require 'linum)
 (linum-mode 1)
 (global-linum-mode 1)
 (setq linum-format "%d ")
-;;
-;;
+
+
 ;;;; C++
 (require 'cc-mode)
 (setq-default c-basic-offset 4 c-default-style "linux")
@@ -73,8 +70,8 @@
 ;;(require 'autopair)
 ;;(autopair-global-mode 1)
 ;;(setq autopair-autowrap t)
-;;
-;;
+
+
 ;;;; Haskell
 ;;(require 'package)
 ;;(add-hook 'haskell-mode-hook 'haskell-indentation-mode)
@@ -87,6 +84,7 @@
 ;;   (quote
 ;;    (("gnu" . "http://elpa.gnu.org/packages/")
 ;;     ("melpa-stable" . "http://stable.melpa.org/packages/")))))
+
 
 ;; Scheme <- deactivated because for MIT Scheme
 ;(require 'quack)

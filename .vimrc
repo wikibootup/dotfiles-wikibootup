@@ -28,7 +28,7 @@ set paste
 " sts : [tab] key size
 " sw : tab size
 " et : tab as a space
-set ts=3 sts=3 sw=3 et
+set ts=2 sts=2 sw=2 et
 
 " Local
 autocmd Filetype rst setlocal ts=3 sts=3 sw=3 et smartindent

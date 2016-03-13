@@ -10,8 +10,15 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 "[
-" haskell
-Plugin 'dag/vim2hs'
+" Haskell
+  Plugin 'dag/vim2hs'
+
+" Python
+  " in progress
+  " ref : https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/
+  " Folding modules
+  Plugin 'tmhedberg/SimpylFold'
+  Plugin 'vim-scripts/indentpython.vim'
 "]
 call vundle#end()            " required
 filetype plugin indent on    " required
